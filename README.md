@@ -183,7 +183,7 @@ MIT — feel free to fork and create your own portfolio agent!
 
 Questions or issues? Check the code or feel free to reach out:
 - Email: vickykr26941@gmail.com
-- LinkedIn: https://linkedin.com/in/vickykumar
-- GitHub: https://github.com/vickykumar
+- LinkedIn: https://www.linkedin.com/in/vicky-kumar-a948431a9/
+- GitHub: https://github.com/vickykr26941
 
 

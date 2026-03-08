@@ -57,3 +57,4 @@ def get_education() -> dict:
 def get_full_profile() -> dict:
     """Get the complete portfolio profile — all info at once."""
     return _load()
+

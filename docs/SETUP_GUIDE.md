@@ -3,7 +3,6 @@
 Welcome! This guide walks you through setting up and running your AI portfolio agent locally and deploying it online.
 
 ---
-
 ## 📋 What You Have
 
 A complete AI-powered portfolio chatbot that:

@@ -9,3 +9,6 @@ services:
       # Hot-reload data file without rebuilding image
       - ./data/portfolio_data.json:/app/data/portfolio_data.json:ro
     restart: unless-stopped
+
+
+    

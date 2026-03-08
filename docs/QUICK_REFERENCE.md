@@ -3,7 +3,6 @@
 Print this or bookmark it for quick access while using the portfolio agent!
 
 ---
-
 ## 🚀 Getting Started (2 minutes)
 
 ```bash

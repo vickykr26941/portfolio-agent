@@ -77,3 +77,4 @@ async def serve_ui():
 @app.get("/{full_path:path}")
 async def catch_all(full_path: str):
     return FileResponse("static/index.html")
+

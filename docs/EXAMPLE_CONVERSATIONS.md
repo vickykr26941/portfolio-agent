@@ -3,7 +3,6 @@
 This guide shows what kinds of conversations the chatbot handles and how it responds. Use these as reference for testing!
 
 ---
-
 ## 🎯 Greeting & Introduction
 
 **User:** "Hello! Who are you?"

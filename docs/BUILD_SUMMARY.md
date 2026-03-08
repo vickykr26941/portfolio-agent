@@ -19,7 +19,6 @@ Your AI portfolio agent has been **fully rebuilt and optimized**! Here's what wa
 | **GitHub Data** | Runtime fetch | Pre-cached at startup ✅ |
 
 ---
-
 ## 📁 Project Files
 
 ```

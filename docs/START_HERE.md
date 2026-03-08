@@ -5,7 +5,6 @@
 Your AI portfolio agent has been **completely rebuilt, optimized, and thoroughly documented**. Here's what you have:
 
 ---
-
 ## 🎯 What's New
 
 ### Core Improvements ⚡

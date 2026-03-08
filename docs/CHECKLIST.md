@@ -160,6 +160,7 @@ Try these questions in order:
 - [ ] Should include GitHub links
 - [ ] Descriptions should be clear
 
+
 ### 6. Achievements Test
 - [ ] Ask: "What are your competitive programming achievements?"
 - [ ] Should mention: LeetCode 1850+, CodeChef 4-star, HackerRank 5-star
