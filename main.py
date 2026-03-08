@@ -28,21 +28,29 @@ class ChatResponse(BaseModel):
 
 @app.on_event("startup")
 async def startup():
-    # Validate env vars
-    groq_key    = os.getenv("GROQ_API_KEY", "")
+    # Validate Cloudflare env vars
+    cf_token    = os.getenv("CLOUDFLARE_API_TOKEN", "")
+    cf_account  = os.getenv("CLOUDFLARE_ACCOUNT_ID", "")
     github_token = os.getenv("GITHUB_TOKEN", "")
 
-    if not groq_key:
-        print("❌ GROQ_API_KEY is not set!")
-    elif not groq_key.startswith("gsk_"):
-        print(f"⚠️  GROQ_API_KEY looks wrong — got: {groq_key[:8]}...")
+    print("─── VickyBot Startup ───────────────────────")
+    
+    if not cf_token:
+        print("❌ CLOUDFLARE_API_TOKEN is not set!")
     else:
-        print(f"✅ GROQ_API_KEY loaded: {groq_key[:8]}...")
+        print(f"✅ CLOUDFLARE_API_TOKEN loaded: {cf_token[:8]}...")
+
+    if not cf_account:
+        print("❌ CLOUDFLARE_ACCOUNT_ID is not set!")
+    else:
+        print(f"✅ CLOUDFLARE_ACCOUNT_ID loaded: {cf_account[:8]}...")
 
     if not github_token:
         print("⚠️  GITHUB_TOKEN not set — GitHub features will use unauthenticated API (rate limited)")
     else:
         print(f"✅ GITHUB_TOKEN loaded: {github_token[:8]}...")
+
+    print("────────────────────────────────────────────")
 
     # Pre-fetch GitHub data once at startup — cached for all requests
     await warm_github_cache()
