@@ -1,0 +1,132 @@
+{
+  "identity": {
+    "name": "Vicky Kumar",
+    "title": "Backend Developer",
+    "location": "Bangalore, India",
+    "summary": "Backend Developer specializing in Go, Python, Java, and LLM/AI agent workflows. I build scalable distributed systems, authentication platforms, event-driven pipelines, and AI-powered products. Currently at Eka.Care building healthcare infrastructure.",
+    "tagline": "I build the infrastructure that powers intelligent systems — from auth platforms to AI agents."
+  },
+  "contact": {
+    "email": "vickykr26941@gmail.com",
+    "phone": "+91-8709459003",
+    "linkedin": "https://www.linkedin.com/in/vicky-kumar-a948431a9/",
+    "github": "https://github.com/vickykr26941"
+  },
+  "experience": [
+    {
+      "company": "Eka.Care",
+      "role": "Backend Developer",
+      "tech": ["GoLang", "Gin", "Python", "Django", "AWS"],
+      "period": "Nov 2024 – Present",
+      "location": "Bangalore, India",
+      "highlights": [
+        "Architected a centralized OAuth2 + OpenID Connect authentication platform powering Eka Care EMR, PHR, Scribe, and partner products",
+        "Built full OAuth2/OIDC provider supporting Login with Google, Apple, and other identity providers",
+        "Designed an Auth Console for managing OAuth clients, API keys, scopes, and access policies",
+        "Developed an AI Agent integrated with ChatGPT to enable AI-assisted workflows for EMR and Scribe",
+        "Created AWS Lambda Authorizers integrated with API Gateway for request authentication",
+        "Implemented CloudFront Functions for dynamic redirects across products and login flows",
+        "Designed a rate-limiting adapter service to mitigate abuse and DDoS using mobile, email, and OAuth identities",
+        "Architected the Scribe platform backend for doctor dictation and doctor-patient consultations",
+        "Designed an event-driven voice-to-text pipeline using AWS SNS, SQS, S3, and Lambda",
+        "Built MCP servers exposing secure drug database search APIs with auth, rate limiting, and audit logging",
+        "Optimized end-to-end audio processing latency from 20 seconds to 5-10 seconds per consultation",
+        "Contributed to 40%+ month-over-month growth in daily Scribe consultations",
+        "Led integrations with Medanta, Cliniik, and NIC (Government of India)"
+      ]
+    },
+    {
+      "company": "Deeptek.AI",
+      "role": "Software Engineer",
+      "tech": ["Java", "Spring Boot", "MySQL"],
+      "period": "Nov 2022 – Nov 2024",
+      "location": "Pune, Maharashtra",
+      "highlights": [
+        "Architected GCP data migration strategy reducing cloud infrastructure costs by 65%",
+        "Integrated open-source medical imaging viewer saving $300K+ annually in licensing fees",
+        "Led monolith to microservices migration improving system performance by 40%",
+        "Built radiology reporting system with LLM integration reducing radiologist reporting time by 50%",
+        "Developed 50+ REST APIs supporting radiology workflows",
+        "Optimized bulk DICOM processing enabling throughput of 10K+ images per minute from 1,000+ hospitals",
+        "Implemented async data export handling 100K+ medical records with 60% faster DB queries",
+        "Integrated voice dictation for radiologists and deployed across 100+ hospitals in India and APAC"
+      ]
+    },
+    {
+      "company": "MTX Software Private Limited",
+      "role": "Salesforce Software Engineer",
+      "tech": ["Java", "Apex", "Salesforce", "LWC", "JavaScript"],
+      "period": "Jan 2022 – Nov 2022",
+      "location": "Jaipur, India",
+      "highlights": [
+        "Developed custom Salesforce solutions using Aura, Lightning Web Components (LWC), SOQL, and JavaScript",
+        "Built REST API for CSV import/export enabling bidirectional data transfer between external databases and Salesforce CRM"
+      ]
+    },
+    {
+      "company": "Celebal Technologies",
+      "role": "Python Developer Intern",
+      "tech": ["Python", "MySQL", "PySpark", "Databricks"],
+      "period": "Nov 2021 – Jan 2022",
+      "location": "Jaipur, India",
+      "highlights": [
+        "Performed data cleaning, transformation, and manipulation using Python on Databricks platform with MySQL, PySpark, and Jupyter Notebook"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Medical AI Health Assessment",
+      "year": 2025,
+      "tech": ["Claude AI API", "Python", "Django", "React", "JavaScript"],
+      "github": "https://github.com/vickykumar",
+      "description": "Web application integrating Claude AI for dynamic health assessment questionnaires generating personalized medical insights. Automated medical summary generation with diagnosis, medications, and recommendations to assist healthcare professionals. Designed to optimize OPD efficiency and improve patient-doctor interaction workflows."
+    },
+    {
+      "name": "Generic Webhook Dispatch System",
+      "year": 2025,
+      "tech": ["GoLang", "AWS SQS", "SNS", "Lambda", "REST APIs"],
+      "github": "https://github.com/vickykumar",
+      "description": "Generic webhook backend microservice in Go supporting event delivery across multiple protocols. Clients can register webhooks for HTTP/HTTPS, AWS SQS, SNS, and Lambda. Uses async dispatch architecture with Go routines and channels. Decouples request ingestion from delivery execution for high reliability and scalability."
+    },
+    {
+      "name": "Student Monitoring System with Facial Recognition",
+      "year": 2022,
+      "tech": ["MySQL", "Python", "Django", "JavaScript", "OpenCV"],
+      "github": "https://github.com/vickykumar",
+      "description": "Multi-role system with class management, assignment distribution, and automated attendance tracking using facial recognition. Includes manual override capability, scheduled email notifications, and comprehensive student management with enrollment, assignment submission, and progress tracking."
+    }
+  ],
+  "skills": {
+    "languages": ["Go", "Python", "Java", "C++", "JavaScript"],
+    "frameworks": ["Spring Boot", "Django", "Go-Gin", "React"],
+    "databases": ["MySQL", "MongoDB", "DynamoDB", "BigQuery", "Elasticsearch"],
+    "cloud_devops": ["AWS EC2", "AWS S3", "AWS Lambda", "API Gateway", "CloudFront", "SNS", "SQS", "GCP", "Docker", "CI/CD", "Git"],
+    "tools": ["REST APIs", "Microservices", "OAuth 2.0", "OpenID Connect", "MCP", "NewRelic", "Redash", "Hibernate", "JPA"],
+    "core": ["System Design", "Data Structures & Algorithms", "LLM Integration", "AI Agent Workflows", "Code Review", "Team Leadership"]
+  },
+  "achievements": {
+    "leetcode": "1850+ rating, 1500+ problems solved",
+    "codechef": "4-star (1800+), 600+ problems solved",
+    "hackerrank": "5-star, 400+ problems solved",
+    "highlights": [
+      "Rank 64/1078 in HackerRank Celebrate Pride 2021",
+      "Rank 44/31K in CodeChef March Challenge 2021",
+      "Consistently in top 300 competitive programmers"
+    ]
+  },
+  "education": [
+    {
+      "institution": "Government Engineering College Ajmer",
+      "degree": "Bachelor of Science in Computer Science",
+      "period": "2018 – 2022",
+      "gpa": "8.79/10"
+    },
+    {
+      "institution": "Bihar Board of Education",
+      "degree": "Higher Secondary Certificate",
+      "period": "2016 – 2018",
+      "percentage": "74%"
+    }
+  ]
+}
